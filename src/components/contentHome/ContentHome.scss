@@ -1,0 +1,81 @@
+.contentHome {
+  width: 100%;
+  .logo {
+    width: 310px;
+    height: 122px;
+    // margin-top: 20px auto;
+    margin: 20px auto;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .content {
+    margin: 10px auto;
+    width: 100%;
+    max-width: 1510px;
+    height: 210px;
+    background-color: #efefef;
+    text-align: center;
+    .title {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 21px;
+      padding-top: 38px;
+    }
+    .text {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      max-width: 972px;
+      height: 95px;
+      margin: 18px auto;
+    }
+  }
+
+  .list_item {
+    margin: 30px auto;
+    width: 100%;
+    max-width: 1510px;
+    display: flex;
+    justify-content: space-between;
+    .card {
+      width: 470px;
+      height: 252px;
+      &_title {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+      }
+      &_content {
+        display: flex;
+        width: 100%;
+        img {
+          width: 128px;
+          height: 128px;
+        }
+        .text {
+          width: 326px;
+          height: 134px;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+        }
+      }
+      &_bt{
+        width: 100%;
+      }
+    }
+  }
+}

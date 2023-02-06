@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  .sideBar {
+    position: relative;
+    width: 150px;
+  }
+  .contentt {
+    // background: #bb5353;
+    width: calc(100vw - 170px);
+  }
+}
